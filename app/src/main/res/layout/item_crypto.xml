@@ -1,10 +1,19 @@
-<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
         <variable
             name="crypto"
             type="com.shubhamtripz.cryptopricetracker.data.Crypto" />
     </data>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        android:elevation="7dp"
+        app:cardCornerRadius="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,21 +23,25 @@
 
         <TextView
             android:id="@+id/nameTextView"
+            android:textSize="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@{crypto.name}" />
+            android:fontFamily="@font/futura_medium"
+            android:text="Name" />
 
         <TextView
             android:id="@+id/priceTextView"
+            android:textSize="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text='@{"Price: $" + crypto.priceUsd}' />
+            android:fontFamily="@font/bariol_bold"
+            android:text='Price' />
 
         <TextView
             android:id="@+id/rankTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text='@{"Rank: " + crypto.rank}' />
+            android:text= "Rank" />
 
         <Button
             android:id="@+id/viewMoreButton"
@@ -36,4 +49,6 @@
             android:layout_height="wrap_content"
             android:text="View More" />
     </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
 </layout>
