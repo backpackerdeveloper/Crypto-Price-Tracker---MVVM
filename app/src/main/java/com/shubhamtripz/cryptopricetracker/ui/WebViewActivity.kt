@@ -18,8 +18,7 @@ class WebViewActivity : AppCompatActivity() {
             binding.webView.webViewClient = WebViewClient()
             binding.webView.loadUrl(url)
         } else {
-            // Handle the case where the URL is null
-            // You can show an error message or close the activity
+
             finish() // Close the activity if URL is null
         }
     }
