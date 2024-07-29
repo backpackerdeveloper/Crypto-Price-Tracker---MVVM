@@ -20,7 +20,7 @@
             android:layout_height="?attr/actionBarSize"
             android:background="@color/white"
             app:title="CRYPTO PRICE TRACKER"
-            app:titleTextColor="@color/pri_orange" />
+            app:titleTextColor="@color/primary" />
 
         <com.facebook.shimmer.ShimmerFrameLayout
             android:layout_below="@+id/toolbar"

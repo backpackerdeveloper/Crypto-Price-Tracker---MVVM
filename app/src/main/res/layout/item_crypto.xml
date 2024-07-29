@@ -9,7 +9,7 @@
 
 
     <androidx.cardview.widget.CardView
-        android:layout_margin="10dp"
+        android:layout_margin="5dp"
         android:elevation="7dp"
         app:cardCornerRadius="4dp"
         android:layout_width="match_parent"
@@ -18,12 +18,14 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:orientation="horizontal"
+        android:weightSum="3"
         android:padding="16dp">
 
         <LinearLayout
-            android:layout_width="100dp"
-            android:layout_height="70dp"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
             android:orientation="vertical">
 
             <ImageView
@@ -32,9 +34,16 @@
                 android:src="@drawable/wallet"/>
         </LinearLayout>
 
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1">
+
         <TextView
             android:id="@+id/nameTextView"
             android:textSize="16dp"
+            android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/futura_medium"
@@ -42,23 +51,38 @@
 
         <TextView
             android:id="@+id/priceTextView"
-            android:textSize="16dp"
+            android:textSize="11dp"
+            android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/bariol_bold"
             android:text='Price' />
 
         <TextView
+            android:textStyle="bold"
             android:id="@+id/rankTextView"
+            android:textSize="8dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text= "Rank" />
 
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1">
+
         <Button
+            android:backgroundTint="@color/primary"
             android:id="@+id/viewMoreButton"
+            style="@style/Widget.MaterialComponents.Button.Icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="View More" />
+
+    </LinearLayout>
+
     </LinearLayout>
 
     </androidx.cardview.widget.CardView>
