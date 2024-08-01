@@ -19,6 +19,8 @@ class WebViewActivity : AppCompatActivity() {
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
         // Enable the back button
+
+
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         // Handle back button click
         toolbar.setNavigationOnClickListener {
