@@ -21,7 +21,7 @@ Crypto Price Tracker is an Android application built using Kotlin and XML. This 
 
 ## Screenshots
 
-![Screenshot 1](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6_erOtzroqwgPjYS2wXT9vLqOr29SB9OtL1doSNyZsXHs64U6Y35UwG_h8TSyzkizmeoRhmagv1suKTDcjUrwNAw7DUUiBnbn37PpNChNb8nyOouBt7qe3StogwZksKHKNuHyvG2WJ7Y_fTCwbVkp7Fbe5o3QSKqTX4e9kizyeQDzG2wE_4fODNSARvRf/s2400/Screenshot_20240802-000945.png)
+![Screenshot 1](https://www.canva.com/design/DAGMovrWTPQ/Ku07XHxmVlMlfsZm-6fc_w/view?utm_content=DAGMovrWTPQ&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 ![Screenshot 2](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5WJeDg2TKGdPj15trWrX9DqPNpVAM0fLA4tdg-A4DEyHrfX_YwEPIB_juH90oVAA0MfzJDWDB9foyExZLVm3NNt9n5wYKMpiga269SSt-AtVqTZCVYpOKVzGVB90dplvk7n4wVRlHkMg5z3gMFVKIMbBYxVzF0Ggqdx4T3oJeznrF8ae11LBAZMax0qU0/s2400/Screenshot_20240802-001033.png)
 
 ## Getting Started
