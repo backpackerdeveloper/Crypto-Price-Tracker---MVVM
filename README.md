@@ -1,6 +1,6 @@
 # Crypto Price Tracker
 
-![App Logo](https://dummyimageurl.com/your-logo.png)
+![App Logo](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQu2iu-At8EU1agLoQvzaenys0YHYgHj_uX84G-hM-phcAwlxF6Fyy6xJ6TkdoCftn41pUPK1onHOkFdiwu7whlO78YXgENuU8AyWDfLdcUahW0ainrwi1lFfC6RL2ZAUO-F3bKNFGjM3QpgtDtjDfGs5xycND5ecmfDttYmYhO_3ShqInOQbGsoOmqqVt/s1280/cpt_logo.jpg)
 
 Crypto Price Tracker is an Android application built using Kotlin and XML. This app allows users to track the prices of various cryptocurrencies and view detailed information about each coin. The data is presented in a RecyclerView, providing a clean and efficient way to browse through the latest market prices.
 
@@ -21,8 +21,7 @@ Crypto Price Tracker is an Android application built using Kotlin and XML. This 
 
 ## Screenshots
 
-![Screenshot 1](https://dummyimageurl.com/screenshot1.png)
-![Screenshot 2](https://dummyimageurl.com/screenshot2.png)
+![Screenshot 1](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6Ks4spmHnpKyrkHlOlq9XmeqwEXMm5S3-8ib_0kWf1gNi2K-mubhJQx7I_5orIkCdeIIUtfNHBbjR6RBqtgugQqSFbPIduSsSs9UmrZf_oaD58bOEbRLJ45KRqNRTco5pmvvVDvXx3Wes-MW-0584RRZyLGI44KdVE4QWm7WzxzSe8jamm22c-MkmJDcb/s1280/Untitled%20design.png)
 
 ## Getting Started
 
