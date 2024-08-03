@@ -41,7 +41,7 @@ class CryptoAdapter(private var cryptoList: List<Crypto>) : RecyclerView.Adapter
             priceTextView.text = crypto.priceUsd
             rankTextView.text = crypto.rank
 
-            viewMoreButton.setOnClickListener {
+            viewMoreButton.setOnClickListener { // passing url for view more details
                 val context = itemView.context
                 val intent = Intent(context, WebViewActivity::class.java).apply {
                     putExtra("url", crypto.explorer)
